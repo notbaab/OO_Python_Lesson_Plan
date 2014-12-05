@@ -10,11 +10,6 @@ def test_answer_placeholders():
             passed("Has " + comp)
         else:
             failed("Needs a " + comp + " somewhere")
-    # if "def" in placeholder and ":" in placeholder and "my_sweet_function()" in placeholder and "print" in placeholder:
-    #     passed()
-    # else:
-    #     failed("Make sure you have everything ")
-
 
 if __name__ == '__main__':
     run_common_tests()
