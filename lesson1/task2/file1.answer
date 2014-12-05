@@ -1,0 +1,1 @@
+input("help, I'm a computer!")

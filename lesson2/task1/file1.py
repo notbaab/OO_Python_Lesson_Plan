@@ -1,0 +1,7 @@
+def sweet_function():  # notice the colon at the end of the function?
+    print("This is a sweet function")
+
+# You call the function like so
+sweet_function()
+
+your_mom()

@@ -1,0 +1,2 @@
+#educational_plugin_window = def my_sweet_function():
+    print("HERPEDY DERPEDY DERPDIFIED")
