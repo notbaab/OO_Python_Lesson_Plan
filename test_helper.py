@@ -1,6 +1,5 @@
 import sys
 
-
 def get_file_text(path):
     """ Returns file text by path"""
     file_io = open(path, "r")
@@ -13,7 +12,7 @@ def get_file_output():
     """ Returns answer file output using import system """
     saved_stdout = sys.stdout
     try:
-        from StringIO import StringIO
+        from io import StringIO
 
         out = StringIO()
         sys.stdout = out
